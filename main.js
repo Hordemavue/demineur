@@ -33,6 +33,10 @@
     const replacementURL_7 = "https://i.imgur.com/tYqumaJ.png";
     const targetSrc_8 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABlBMVEW9vb17e3tXxGy+AAAAJklEQVQI12P4/5+hgQGE+j8wzP/BMMcCiIBsIIKwgYJANlABBAEAuf8Q+fimVN8AAAAASUVORK5CYII=";
     const replacementURL_8 = "https://i.imgur.com/8AilmGf.png";
+    const targetSrc_bomb = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAADFBMVEW9vb0AAAB7e3v///9j2HHCAAAANElEQVQI12NYBQQMDQxA0MDgACNcQxwYGkRDgaz4UAcI0RoaGsLQEApkAQmwLEQdQhvYFAAmDxJuxV7pRgAAAABJRU5ErkJggg==";
+    const replacementURL_bomb = "https://i.imgur.com/Ylv7mGY.png";
+    const targetSrc_bomb_click = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAADFBMVEX/AAAAAAB7e3v///9Ql2ugAAAANElEQVQI12NYBQQMDQxA0MDgACNcQxwYGkRDgaz4UAcI0RoaGsLQEApkAQmwLEQdQhvYFAAmDxJuxV7pRgAAAABJRU5ErkJggg==";
+    const replacementURL_bomb_click = "https://i.imgur.com/1MQyIXM.png";
 
     function replaceTiles() {
         const tiles = document.querySelectorAll('img');
@@ -48,6 +52,8 @@
             else if (tile.src === targetSrc_6) tile.src = replacementURL_6, adjustImageSize(tile);
             else if (tile.src === targetSrc_7) tile.src = replacementURL_7, adjustImageSize(tile);
             else if (tile.src === targetSrc_8) tile.src = replacementURL_8, adjustImageSize(tile);
+            else if (tile.src === targetSrc_bomb) tile.src = replacementURL_bomb, adjustImageSize(tile);
+            else if (tile.src === targetSrc_bomb_click) tile.src = replacementURL_bomb_click, adjustImageSize(tile);
         });
     }
 
