@@ -37,6 +37,8 @@
     const replacementURL_bomb = "https://i.imgur.com/Ylv7mGY.png";
     const targetSrc_bomb_click = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAADFBMVEX/AAAAAAB7e3v///9Ql2ugAAAANElEQVQI12NYBQQMDQxA0MDgACNcQxwYGkRDgaz4UAcI0RoaGsLQEApkAQmwLEQdQhvYFAAmDxJuxV7pRgAAAABJRU5ErkJggg==";
     const replacementURL_bomb_click = "https://i.imgur.com/1MQyIXM.png";
+    const targetSrc_bomb_barre = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAD1BMVEW9vb0AAAD/AAB7e3v///9UaJa4AAAAS0lEQVQI11WNwQnAMAwDRSawPIEjOkCg++9Wq4SG6nX4sIR7Bws7hnhBhlFYo8iQlcgsQ15UGKichhYtoy+Gn8KYFM67CxHQmfjWH/GqCYCzIeZyAAAAAElFTkSuQmCC";
+    const replacementURL_bomb_barre = "https://i.imgur.com/MLtZ4bA.png";
 
     function replaceTiles() {
         const tiles = document.querySelectorAll('img');
@@ -54,6 +56,7 @@
             else if (tile.src === targetSrc_8) tile.src = replacementURL_8, adjustImageSize(tile);
             else if (tile.src === targetSrc_bomb) tile.src = replacementURL_bomb, adjustImageSize(tile);
             else if (tile.src === targetSrc_bomb_click) tile.src = replacementURL_bomb_click, adjustImageSize(tile);
+            else if (tile.src === targetSrc_bomb_barre) tile.src = replacementURL_bomb_barre, adjustImageSize(tile);
         });
     }
 
