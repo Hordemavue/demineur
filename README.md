@@ -8,6 +8,10 @@ Script en JS pour rendre le site https://xn--dmineur-bya.eu/ moins moche et ress
 2) Créer un nouveau script et coller le code qui se trouve dans main.js
 3) Activer le script sur démineur et actualiser la page
 
+# Data 
+
+Les images sont inutiles, seul le script est utile. C'est au cas où les liens imgur deviennent obsolètes.
+
 # Avant après 
 
 ![image](https://github.com/user-attachments/assets/5b44121b-bd38-49e0-b1c9-51de7899fba4)
