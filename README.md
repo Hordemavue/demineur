@@ -2,6 +2,8 @@
 
 Script en JS pour rendre le site https://xn--dmineur-bya.eu/ moins moche et ressembler à https://demineur.nhtdev.com/fr/play/expert
 
+Pourquoi ne pas simplement jouer sur le https://demineur.nhtdev.com/fr/play/expert ? Parce que, contrairement à son rival, il n'a pas d'option pour désactiver l'aléatoire
+
 # Installation
 
 1) Télécharger un hébergeur de script (Tampermonkey par exemple)
