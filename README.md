@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/dd6d89f9-4fbb-4ed1-8689-d4832b61f866)# Démineur
+# Démineur
 
 Script en JS pour rendre le site https://xn--dmineur-bya.eu/ moins moche et ressembler à https://demineur.nhtdev.com/fr/play/expert
 
